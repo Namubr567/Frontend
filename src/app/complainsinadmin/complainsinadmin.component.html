@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            
+            <table class="table table-stripped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Query</th>
+                        
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr *ngFor="let c of complains">
+                        <td>{{c.email}}</td>
+                        <td>{{c.query}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
